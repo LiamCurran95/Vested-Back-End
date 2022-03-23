@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+
+const { Schema } = mongoose;
 
 const formAnswers = new Schema({
   environmentalRating: { type: Number },
@@ -21,7 +22,7 @@ const usersSchema = new Schema(
   },
   {
     versionKey: false,
-  }
+  },
 );
 
 const Users = mongoose.model("User", usersSchema);

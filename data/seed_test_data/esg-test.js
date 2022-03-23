@@ -13,7 +13,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 510,
     social_score: 414,
@@ -34,7 +34,7 @@ module.exports = [
     total_grade: "CCC",
     total_level: "Low",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 110,
     social_score: 240,
@@ -55,7 +55,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 575,
     social_score: 396,
@@ -76,7 +76,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 550,
     social_score: 355,
@@ -97,7 +97,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 389,
     social_score: 253,
@@ -118,7 +118,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -139,7 +139,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 255,
     social_score: 222,
@@ -160,7 +160,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 555,
     social_score: 202,
@@ -181,7 +181,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "16-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -202,7 +202,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 613,
     social_score: 309,
@@ -223,7 +223,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 500,
     social_score: 341,
@@ -244,7 +244,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 323,
     social_score: 321,
@@ -265,7 +265,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 525,
     social_score: 407,
@@ -286,7 +286,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 540,
     social_score: 325,
@@ -307,7 +307,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 505,
     social_score: 305,
@@ -328,7 +328,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 409,
     social_score: 300,
@@ -349,7 +349,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 405,
     social_score: 289,
@@ -370,7 +370,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 200,
     social_score: 200,
@@ -391,7 +391,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 248,
     social_score: 325,
@@ -412,7 +412,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 580,
     social_score: 301,
@@ -433,7 +433,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 255,
     social_score: 212,
@@ -454,7 +454,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 248,
     social_score: 325,
@@ -475,7 +475,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 580,
     social_score: 301,
@@ -496,7 +496,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 255,
     social_score: 212,
@@ -517,7 +517,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 533,
     social_score: 320,
@@ -538,7 +538,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-02-2022",
     environment_score: 505,
     social_score: 340,
@@ -559,7 +559,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 555,
     social_score: 501,
@@ -580,7 +580,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 560,
     social_score: 303,
@@ -601,7 +601,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 500,
     social_score: 301,
@@ -622,7 +622,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 525,
     social_score: 300,
@@ -643,7 +643,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -664,7 +664,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 510,
     social_score: 301,
@@ -685,7 +685,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 220,
     social_score: 213,
@@ -706,7 +706,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 205,
     social_score: 296,
@@ -727,7 +727,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 500,
     social_score: 303,
@@ -748,7 +748,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -769,7 +769,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 525,
     social_score: 369,
@@ -790,7 +790,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-02-2022",
     environment_score: 536,
     social_score: 301,
@@ -811,7 +811,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 510,
     social_score: 311,
@@ -832,7 +832,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 500,
     social_score: 206,
@@ -853,7 +853,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 510,
     social_score: 300,
@@ -874,7 +874,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 265,
     social_score: 245,
@@ -895,7 +895,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -916,7 +916,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -937,7 +937,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 527,
     social_score: 350,
@@ -958,7 +958,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 545,
     social_score: 259,
@@ -979,7 +979,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 520,
     social_score: 300,
@@ -1000,7 +1000,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 530,
     social_score: 327,
@@ -1021,7 +1021,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 505,
     social_score: 343,
@@ -1043,7 +1043,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 500,
     social_score: 375,
@@ -1064,7 +1064,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 525,
     social_score: 332,
@@ -1085,7 +1085,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "18-03-2022",
     environment_score: 545,
     social_score: 320,
@@ -1106,7 +1106,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 375,
     social_score: 290,
@@ -1127,7 +1127,7 @@ module.exports = [
     total_grade: "CCC",
     total_level: "Low",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "17-03-2022",
     environment_score: 200,
     social_score: 268,
@@ -1148,7 +1148,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 570,
     social_score: 321,
@@ -1169,7 +1169,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 285,
     social_score: 201,
@@ -1191,7 +1191,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 240,
     social_score: 248,
@@ -1212,7 +1212,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 455,
     social_score: 253,
@@ -1233,7 +1233,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 200,
     social_score: 200,
@@ -1254,7 +1254,7 @@ module.exports = [
     total_grade: "B",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 255,
     social_score: 305,
@@ -1275,7 +1275,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 535,
     social_score: 325,
@@ -1296,7 +1296,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 460,
     social_score: 336,
@@ -1317,7 +1317,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 560,
     social_score: 355,
@@ -1338,7 +1338,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 515,
     social_score: 308,
@@ -1359,7 +1359,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 540,
     social_score: 347,
@@ -1380,7 +1380,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 220,
     social_score: 315,
@@ -1401,7 +1401,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 578,
     social_score: 333,
@@ -1422,7 +1422,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 210,
     social_score: 456,
@@ -1443,7 +1443,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 545,
     social_score: 319,
@@ -1464,7 +1464,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 353,
     social_score: 388,
@@ -1485,7 +1485,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "15-03-2022",
     environment_score: 500,
     social_score: 300,
@@ -1506,7 +1506,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 301,
     social_score: 364,
@@ -1527,7 +1527,7 @@ module.exports = [
     total_grade: "BB",
     total_level: "Medium",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "14-03-2022",
     environment_score: 368,
     social_score: 256,
@@ -1548,7 +1548,7 @@ module.exports = [
     total_grade: "A",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "11-03-2022",
     environment_score: 595,
     social_score: 336,
@@ -1569,7 +1569,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "12-03-2022",
     environment_score: 527,
     social_score: 320,
@@ -1590,7 +1590,7 @@ module.exports = [
     total_grade: "BBB",
     total_level: "High",
     disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+      "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
     last_processing_date: "13-03-2022",
     environment_score: 550,
     social_score: 281,

@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+
+const { Schema } = mongoose;
 
 const polygonSchema = new Schema(
   {
@@ -17,7 +18,7 @@ const polygonSchema = new Schema(
   },
   {
     versionKey: false,
-  }
+  },
 );
 
 const Polygon = mongoose.model("Polygon", polygonSchema);
