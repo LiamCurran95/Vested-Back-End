@@ -1,4 +1,4 @@
-const { fetchPolygon } = require("../models/polygon.model");
+const { fetchPolygon } = require('../models/polygon.model');
 
 exports.getPolygon = (req, res, next) => {
   fetchPolygon()

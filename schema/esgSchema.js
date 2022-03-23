@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+
+const { Schema } = mongoose;
 
 const esgSchema = new Schema(
   {
@@ -23,9 +24,9 @@ const esgSchema = new Schema(
   },
   {
     versionKey: false,
-  }
+  },
 );
 
-const Esg = mongoose.model("esg", esgSchema);
+const Esg = mongoose.model('esg', esgSchema);
 
 module.exports = Esg;

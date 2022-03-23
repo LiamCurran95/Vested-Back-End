@@ -1,38 +1,33 @@
-const polygonAPI = require("./seed_prod_data/polygon");
-const esgData = require("./seed_prod_data/esg");
-const userData = require("./seed_prod_data/userdata");
+const mongoose = require('mongoose');
+const polygonAPI = require('./seed_prod_data/polygon');
+const esgData = require('./seed_prod_data/esg');
+const userData = require('./seed_prod_data/userdata');
 
-const ESG = require("../schema/esgSchema");
-const Polygon = require("../schema/polygonSchema");
-const Users = require("../schema/usersSchema");
+const ESG = require('../schema/esgSchema');
+const Polygon = require('../schema/polygonSchema');
+const Users = require('../schema/usersSchema');
+const importedUri = require('../prodUri');
 
-const mongoose = require("mongoose");
-
-const uri = "INSERT URI";
+const uri = importedUri;
 
 const seedDB = async () => {
-	try {
-		await mongoose.connect(uri, {
-			useNewUrlParser: true,
-			useUnifiedTopology: true,
-		});
+  try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
 
-		await Polygon.deleteMany({});
-		await ESG.deleteMany({});
-		await Users.deleteMany({});
+    await mongoose.connection.db.dropCollection('polygons', () => {});
+    await mongoose.connection.db.dropCollection('esgs', () => {});
+    await mongoose.connection.db.dropCollection('users', () => {});
 
-		await Polygon.insertMany(polygonAPI);
-		console.log(`stock entries added`);
-
-		await ESG.insertMany(esgData);
-		console.log(`esg entries added`);
-
-		await Users.insertMany(userData);
-		console.log(`user entries added`);
-	} catch (error) {
-		console.log(error);
-	} finally {
-		await mongoose.connection.close();
-	}
+    await Polygon.insertMany(polygonAPI);
+    await ESG.insertMany(esgData);
+    await Users.insertMany(userData);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    await mongoose.connection.close();
+  }
 };
 seedDB();

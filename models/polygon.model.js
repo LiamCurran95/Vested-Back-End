@@ -1,6 +1,8 @@
-const uri = "INSERT MONGO URI HERE";
-const Polygon = require("../schema/polygonSchema");
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+const importedUri = require('../testUri');
+
+const uri = importedUri;
+const Polygon = require('../schema/polygonSchema');
 
 exports.fetchPolygon = async () => {
   try {

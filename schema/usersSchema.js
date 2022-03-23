@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+
+const { Schema } = mongoose;
 
 const formAnswers = new Schema({
   environmentalRating: { type: Number },
@@ -17,14 +18,14 @@ const usersSchema = new Schema(
     form_answers: formAnswers,
     portfolios: userPortfolios,
     newUser: { type: Boolean, required: true, default: true },
-    theme: { type: String, required: true, default: "light" },
+    theme: { type: String, required: true, default: 'light' },
   },
   {
     versionKey: false,
-  }
+  },
 );
 
-const Users = mongoose.model("User", usersSchema);
+const Users = mongoose.model('User', usersSchema);
 
 module.exports = Users;
 

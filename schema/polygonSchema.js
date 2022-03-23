@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+
+const { Schema } = mongoose;
 
 const polygonSchema = new Schema(
   {
@@ -17,9 +18,9 @@ const polygonSchema = new Schema(
   },
   {
     versionKey: false,
-  }
+  },
 );
 
-const Polygon = mongoose.model("Polygon", polygonSchema);
+const Polygon = mongoose.model('Polygon', polygonSchema);
 
 module.exports = Polygon;

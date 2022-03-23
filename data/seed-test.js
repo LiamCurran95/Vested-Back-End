@@ -1,38 +1,44 @@
-const polygonAPI = require("./seed_test_data/polygon-test");
-const esgData = require("./seed_test_data/esg-test");
-const userData = require("./seed_test_data/userdata-test");
-
-const ESG = require("../schema/esgSchema");
-const Polygon = require("../schema/polygonSchema");
-const Users = require("../schema/usersSchema");
-
-const mongoose = require("mongoose");
-
-const uri = "INSERT URI";
-
 const seedDB = async () => {
-	try {
-		await mongoose.connect(uri, {
-			useNewUrlParser: true,
-			useUnifiedTopology: true,
-		});
+  const polygonAPI = require('./seed_test_data/polygon-test');
+  const esgData = require('./seed_test_data/esg-test');
+  const userData = require('./seed_test_data/userdata-test');
 
-		await Polygon.deleteMany({});
-		await ESG.deleteMany({});
-		await Users.deleteMany({});
+  const ESG = require('../schema/esgSchema');
+  const Polygon = require('../schema/polygonSchema');
+  const Users = require('../schema/usersSchema');
+  const importedUri = require('../testUri');
 
-		await Polygon.insertMany(polygonAPI);
-		console.log(`stock entries added`);
+  const mongoose = require('mongoose');
 
-		await ESG.insertMany(esgData);
-		console.log(`esg entries added`);
+  const uri = importedUri;
 
-		await Users.insertMany(userData);
-		console.log(`user entries added`);
-	} catch (error) {
-		console.log(error);
-	} finally {
-		await mongoose.connection.close();
-	}
+  try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+
+    await mongoose.connection.db.dropCollection(
+      'polygons',
+      () => {},
+    );
+    await mongoose.connection.db.dropCollection(
+      'esgs',
+      () => {},
+    );
+    await mongoose.connection.db.dropCollection(
+      'users',
+      () => {},
+    );
+
+    await Polygon.insertMany(polygonAPI);
+    await ESG.insertMany(esgData);
+    await Users.insertMany(userData);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    await mongoose.connection.close();
+  }
 };
-seedDB();
+
+module.exports = seedDB;
