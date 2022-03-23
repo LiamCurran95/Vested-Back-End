@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
@@ -18,14 +18,14 @@ const usersSchema = new Schema(
     form_answers: formAnswers,
     portfolios: userPortfolios,
     newUser: { type: Boolean, required: true, default: true },
-    theme: { type: String, required: true, default: 'light' },
+    theme: { type: String, required: true, default: "light" },
   },
   {
     versionKey: false,
   },
 );
 
-const Users = mongoose.model('User', usersSchema);
+const Users = mongoose.model("User", usersSchema);
 
 module.exports = Users;
 

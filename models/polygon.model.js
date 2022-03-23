@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
-const importedUri = require('../testUri');
+const mongoose = require("mongoose");
+const { testUri } = require("../secretInfo");
 
-const uri = importedUri;
-const Polygon = require('../schema/polygonSchema');
+const uri = testUri;
+const Polygon = require("../schema/polygonSchema");
 
 exports.fetchPolygon = async () => {
   try {

@@ -1,16 +1,16 @@
 const seedDB = async () => {
-  const polygonAPI = require('./seed_test_data/polygon-test');
-  const esgData = require('./seed_test_data/esg-test');
-  const userData = require('./seed_test_data/userdata-test');
+  const polygonAPI = require("./seed_test_data/polygon-test");
+  const esgData = require("./seed_test_data/esg-test");
+  const userData = require("./seed_test_data/userdata-test");
 
-  const ESG = require('../schema/esgSchema');
-  const Polygon = require('../schema/polygonSchema');
-  const Users = require('../schema/usersSchema');
-  const importedUri = require('../testUri');
+  const ESG = require("../schema/esgSchema");
+  const Polygon = require("../schema/polygonSchema");
+  const Users = require("../schema/usersSchema");
+  const { testUri } = require("../secretInfo");
 
-  const mongoose = require('mongoose');
+  const mongoose = require("mongoose");
 
-  const uri = importedUri;
+  const uri = testUri;
 
   try {
     await mongoose.connect(uri, {
@@ -19,15 +19,15 @@ const seedDB = async () => {
     });
 
     await mongoose.connection.db.dropCollection(
-      'polygons',
+      "polygons",
       () => {},
     );
     await mongoose.connection.db.dropCollection(
-      'esgs',
+      "esgs",
       () => {},
     );
     await mongoose.connection.db.dropCollection(
-      'users',
+      "users",
       () => {},
     );
 

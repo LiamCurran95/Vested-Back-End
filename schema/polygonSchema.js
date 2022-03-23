@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
@@ -21,6 +21,6 @@ const polygonSchema = new Schema(
   },
 );
 
-const Polygon = mongoose.model('Polygon', polygonSchema);
+const Polygon = mongoose.model("Polygon", polygonSchema);
 
 module.exports = Polygon;
