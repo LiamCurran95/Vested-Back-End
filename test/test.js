@@ -6,21 +6,22 @@ const Polygon = require("../schema/polygonSchema");
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const app = require("../app");
+const seedDB = require("../data/seed-test");
 const should = chai.should();
 
 chai.use(chaiHttp);
+
 describe("Testing the Vested Back-End", () => {
   beforeEach((done) => {
-    Polygon.deleteMany({}, (err) => {
-      done();
-    });
+    seedDB();
+    done();
   });
 
   describe("/GET polygon", () => {
     it("Fetches all polygon data", (done) => {
       chai
-        .request(server)
-        .get("/polygon")
+        .request(app)
+        .get("/api/polygon")
         .end((err, res) => {
           res.should.have.status(200);
           res.body.should.be.a("array");
