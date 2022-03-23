@@ -29,7 +29,7 @@ const seedDB = async () => {
     await ESG.insertMany(ESGdata);
     console.log(`esg entries added`);
 
-    await Users.insertMany(Users);
+    await Users.insertMany(Userdata);
     console.log(`user entries added`);
   } catch (error) {
     console.log(error);
