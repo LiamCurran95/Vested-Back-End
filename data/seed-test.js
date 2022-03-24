@@ -3,7 +3,7 @@ const seedDB = async () => {
   const esgData = require("./seed_test_data/esg-test");
   const userData = require("./seed_test_data/userdata-test");
 
-  const ESG = require("../schema/esgSchema");
+  const Esg = require("../schema/esgSchema");
   const Polygon = require("../schema/polygonSchema");
   const Users = require("../schema/usersSchema");
   const { testUri } = require("../secretInfo");
@@ -32,7 +32,7 @@ const seedDB = async () => {
     );
 
     await Polygon.insertMany(polygonAPI);
-    await ESG.insertMany(esgData);
+    await Esg.insertMany(esgData);
     await Users.insertMany(userData);
   } catch (error) {
     console.log(error);

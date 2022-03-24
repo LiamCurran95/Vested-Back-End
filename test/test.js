@@ -1,4 +1,3 @@
-// process.env.NODE_ENV = 'test';
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const app = require("../app");
@@ -12,7 +11,7 @@ describe("Testing the Vested Back-End", () => {
   beforeEach(async () => {
     await seedDB();
   });
-  describe("/GET polygon", () => {
+  describe("/GET/Polygon", () => {
     it("Fetches all polygon data", (done) => {
       chai
         .request(app)
@@ -20,7 +19,33 @@ describe("Testing the Vested Back-End", () => {
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
-          result.should.have.lengthOf(2466);
+          result.should.have.lengthOf(374);
+          done();
+        });
+    });
+  });
+  describe("/GET/Users", () => {
+    it("Fetches all User data", (done) => {
+      chai
+        .request(app)
+        .get("/api/users")
+        .end((err, res) => {
+          const { result } = res.body;
+          res.should.have.status(200);
+          result.should.have.lengthOf(2);
+          done();
+        });
+    });
+  });
+  describe("/GET/ESG", () => {
+    it("Fetches all ESG data", (done) => {
+      chai
+        .request(app)
+        .get("/api/ESG")
+        .end((err, res) => {
+          const { result } = res.body;
+          res.should.have.status(200);
+          result.should.have.lengthOf(28);
           done();
         });
     });

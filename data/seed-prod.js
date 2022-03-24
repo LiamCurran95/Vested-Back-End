@@ -3,7 +3,7 @@ const polygonAPI = require("./seed_prod_data/polygon");
 const esgData = require("./seed_prod_data/esg");
 const userData = require("./seed_prod_data/userdata");
 
-const ESG = require("../schema/esgSchema");
+const Esg = require("../schema/esgSchema");
 const Polygon = require("../schema/polygonSchema");
 const Users = require("../schema/usersSchema");
 const { prodUri } = require("../secretInfo");
@@ -22,7 +22,7 @@ const seedDB = async () => {
     await mongoose.connection.db.dropCollection("users", () => {});
 
     await Polygon.insertMany(polygonAPI);
-    await ESG.insertMany(esgData);
+    await Esg.insertMany(esgData);
     await Users.insertMany(userData);
   } catch (error) {
     console.log(error);
