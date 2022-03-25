@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const { testUri } = require("../secretInfo");
 
-const uri = process.env.MONGODB_URI;
+const uri = process.env.MONGODB_URI || testUri;
 const Polygon = require("../schema/polygonSchema");
 
 exports.fetchPolygon = async () => {
