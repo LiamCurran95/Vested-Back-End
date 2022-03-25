@@ -1,13 +1,8 @@
-const mongoose = require('mongoose');
-const { testUri } = require('../secretInfo');
-
-
-const uri = testUri;
-const User = require('../schema/usersSchema');
+const mongoose = require("mongoose");
+const { testUri } = require("../secretInfo");
 
 const uri = process.env.MONGODB_URI || testUri;
 const User = require("../schema/usersSchema");
-
 
 exports.fetchUsers = async () => {
   try {
