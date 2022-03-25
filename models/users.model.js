@@ -1,13 +1,8 @@
 const mongoose = require('mongoose');
 const { testUri } = require('../secretInfo');
 
-
-const uri = testUri;
-const User = require('../schema/usersSchema');
-
 const uri = process.env.MONGODB_URI || testUri;
-const User = require("../schema/usersSchema");
-
+const User = require('../schema/usersSchema');
 
 exports.fetchUsers = async () => {
   try {
@@ -48,6 +43,27 @@ exports.fetchPortfolioByUsername = async (username, portfolio) => {
     const data = await User.findOne({
       username: username,
       portfolio,
+    });
+    return data[portfolio];
+  } catch (error) {
+    console.log(error);
+  } finally {
+    await mongoose.connection.close();
+  }
+};
+
+exports.removePortfolioData = async (username, portfolio) => {
+  try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+
+    const filter = { username };
+    const update = { [portfolio]: { tickers: [] } };
+
+    const data = await User.findOneAndUpdate(filter, update, {
+      returnOriginal: false,
     });
     return data[portfolio];
   } catch (error) {

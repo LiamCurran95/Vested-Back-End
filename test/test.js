@@ -64,4 +64,17 @@ describe('Testing the Vested Back-End', () => {
         });
     });
   });
+  describe('/api/:username/:portfolio', () => {
+    it('sets the specfied portfolio array to empty', (done) => {
+      chai
+        .request(app)
+        .patch('/api/jessjelly/portfolio1')
+        .end((err, res) => {
+          const { result } = res.body;
+          res.should.have.status(200);
+          result.tickers.should.eql([]);
+          done();
+        });
+    });
+  });
 });
