@@ -13,7 +13,7 @@ const { getESG } = require('./controllers/esg.controller');
 const {
   getUsers,
   getUserByUsername,
-  getPortfolioByUserName,
+  getPortfolioByUsername,
 } = require('./controllers/users.controller');
 
 //POLYGON
@@ -25,7 +25,7 @@ app.get('/api/ESG', getESG);
 //USERS
 app.get('/api/users', getUsers);
 app.get('/api/users/:username', getUserByUsername);
-app.get('/api/:username/:portfolio', getPortfolioByUserName);
+app.get('/api/:username/:portfolio', getPortfolioByUsername);
 
 app.listen(process.env.port || 9090, () => {
   console.log('Server online..');

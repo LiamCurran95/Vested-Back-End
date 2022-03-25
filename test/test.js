@@ -58,9 +58,8 @@ describe('Testing the Vested Back-End', () => {
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
-          res.to.Equal({
-            portfolio1: ['COST', 'ABT', 'ANET', 'FR', 'A'],
-          });
+          // equal compares objects, eql compares values
+          result.tickers.should.eql(['COST', 'ABT', 'ANET', 'FR', 'A']);
           done();
         });
     });

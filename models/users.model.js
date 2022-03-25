@@ -40,8 +40,11 @@ exports.fetchPortfolioByUsername = async (username, portfolio) => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    const data = await User.aggregate([{ $match: { username, portfolio } }]);
-    return data;
+    const data = await User.findOne({
+      username: username,
+      portfolio,
+    });
+    return data[portfolio];
   } catch (error) {
     console.log(error);
   } finally {
