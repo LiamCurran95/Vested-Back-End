@@ -2,11 +2,10 @@ const {
   fetchUsers,
   fetchUserByUsername,
 
-  fetchPortfolioByUsername,
   removePortfolioData,
 
-  fetchPortfolioByUsername, addUserFormAnswers
-
+  fetchPortfolioByUsername,
+  addUserFormAnswers,
 } = require('../models/users.model');
 
 exports.getUsers = (req, res, next) => {
