@@ -1,5 +1,6 @@
 const chai = require("chai");
 const chaiHttp = require("chai-http");
+const res = require("express/lib/response");
 const app = require("../app");
 const seedDB = require("../data/seed-test");
 
@@ -63,6 +64,45 @@ describe("Testing the Vested Back-End", () => {
           result.formAnswers2.environmentalRating.should.equal(1);
           result.formAnswers3.environmentalRating.should.equal(2);
           result.newUser.should.equal(false);
+          done();
+        });
+    });
+  });
+  describe("PATCH /API/Users/:username/:formAnswers", () => {
+    it("Status 201 - Overwrites a users form responses on their user profile", (done) => {
+      const username = "jessjelly";
+      const formAnswers = "formAnswers1";
+      const formResponses = {
+        environmentalRating: 1,
+        socialRating: 1,
+        governanceRating: 3,
+      };
+      chai.request(app)
+        .patch(`/api/users/${username}/${formAnswers}`)
+        .send({ formResponses })
+        .end((err, res) => {
+          const { result } = res.body;
+          res.should.have.status(201);
+          result.formAnswers1.environmentalRating.should.equal(1);
+          result.formAnswers1.socialRating.should.equal(1);
+          result.formAnswers1.governanceRating.should.equal(3);
+          done();
+        });
+    });
+    it("Status 404 - Incorrect username format", (done) => {
+      const username = "jessjelly123";
+      const formAnswers = "formAnswers1";
+      const formResponses = {
+        environmentalRating: 1,
+        socialRating: 1,
+        governanceRating: 3,
+      };
+      chai.request(app)
+        .patch(`/api/users/${username}/${formAnswers}`)
+        .send({ formResponses })
+        .end((err, res) => {
+          res.should.have.status(404);
+          res.body.should.eql({ msg: "Bad request." });
           done();
         });
     });
