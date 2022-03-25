@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
-const { testUri } = require("../secretInfo");
+const mongoose = require('mongoose');
+const { testUri } = require('../secretInfo');
 
 const uri = testUri;
-const User = require("../schema/usersSchema");
+const User = require('../schema/usersSchema');
 
 exports.fetchUsers = async () => {
   try {
@@ -26,6 +26,21 @@ exports.fetchUserByUsername = async (username) => {
       useUnifiedTopology: true,
     });
     const data = await User.findOne({ username });
+    return data;
+  } catch (error) {
+    console.log(error);
+  } finally {
+    await mongoose.connection.close();
+  }
+};
+
+exports.fetchPortfolioByUsername = async (username, portfolio) => {
+  try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    const data = await User.aggregate([{ $match: { username, portfolio } }]);
     return data;
   } catch (error) {
     console.log(error);
