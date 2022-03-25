@@ -3,16 +3,25 @@ module.exports = [
     username: "jessjelly",
     email: "jessjelly@yahoo.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 4,
-      socialRating: 3,
-      governanceRating: 2,
+    formAnswers1:
+      {
+        environmentalRating: 4,
+        socialRating: 3,
+        governanceRating: 2,
+      },
+    formAnswers2: {
+      environmentalRating: 1,
+      socialRating: 4,
+      governanceRating: 3,
     },
-    portfolios: {
-      porfolio1: ["COST", "ABT", "ANET", "FR", "A"],
-      portfolio2: ["WM", "DHR", "DAR", "KEYS", "GS"],
-      portfolio3: ["FB", "WCC", "XLNX", "CDNS", "SMTC"],
+    formAnswers3: {
+      environmentalRating: 2,
+      socialRating: 4,
+      governanceRating: 4,
     },
+    portfolio1: { tickers: ["COST", "ABT", "ANET", "FR", "A"] },
+    portfolio2: { tickers: ["WM", "DHR", "DAR", "KEYS", "GS"] },
+    portfolio3: { tickers: ["FB", "WCC", "XLNX", "CDNS", "SMTC"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -21,16 +30,25 @@ module.exports = [
     username: "butter_bridge",
     email: "butter@gmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 0,
+    formAnswers1:
+    {
+      environmentalRating: 1,
+      socialRating: 4,
+      governanceRating: 2,
+    },
+    formAnswers2: {
+      environmentalRating: 3,
+      socialRating: 2,
+      governanceRating: 4,
+    },
+    formAnswers3: {
+      environmentalRating: 5,
       socialRating: 5,
-      governanceRating: 5,
+      governanceRating: 2,
     },
-    portfolios: {
-      porfolio1: ["WM", "DHR", "ANET", "KEYS", "A"],
-      portfolio2: ["WM", "AAPL", "DAR", "ON", "GS"],
-      portfolio3: ["KEYS", "WCC", "GS", "CDNS", "SMTC"],
-    },
+    portfolio1: { tickers: ["WM", "DHR", "ANET", "KEYS", "A"] },
+    portfolio2: { tickers: ["WM", "AAPL", "DAR", "ON", "GS"] },
+    portfolio3: { tickers: ["KEYS", "WCC", "GS", "CDNS", "SMTC"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -39,16 +57,25 @@ module.exports = [
     username: "ellenmelon",
     email: "melon@gmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 0,
-      socialRating: 2,
-      governanceRating: 5,
+    formAnswers1:
+      {
+        environmentalRating: 5,
+        socialRating: 5,
+        governanceRating: 2,
+      },
+    formAnswers2: {
+      environmentalRating: 5,
+      socialRating: 1,
+      governanceRating: 4,
     },
-    portfolios: {
-      porfolio1: ["CMG", "DHR", "TSCO", "KEYS", "A"],
-      portfolio2: ["WM", "AAPL", "TSCO", "ON", "GS"],
-      portfolio3: ["KEYS", "WM", "GS", "A", "SMTC"],
+    formAnswers3: {
+      environmentalRating: 1,
+      socialRating: 5,
+      governanceRating: 2,
     },
+    portfolio1: { tickers: ["CMG", "DHR", "TSCO", "KEYS", "A"] },
+    portfolio2: { tickers: ["WM", "AAPL", "TSCO", "ON", "GS"] },
+    portfolio3: { tickers: ["KEYS", "WM", "GS", "A", "SMTC"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -57,16 +84,25 @@ module.exports = [
     username: "coderwill",
     email: "coder@hotmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 5,
-      socialRating: 5,
+    formAnswers1:
+    {
+      environmentalRating: 1,
+      socialRating: 3,
+      governanceRating: 3,
+    },
+    formAnswers2: {
+      environmentalRating: 4,
+      socialRating: 1,
       governanceRating: 5,
     },
-    portfolios: {
-      porfolio1: ["SUI", "AMT", "TSCO", "EBAY", "A"],
-      portfolio2: ["HOLX", "AAPL", "TSCO", "ON", "GS"],
-      portfolio3: ["KEYS", "FLEX", "GS", "A", "TSCO"],
+    formAnswers3: {
+      environmentalRating: 5,
+      socialRating: 2,
+      governanceRating: 2,
     },
+    portfolio1: { tickers: ["SUI", "AMT", "TSCO", "EBAY", "A"] },
+    portfolio2: { tickers: ["HOLX", "AAPL", "TSCO", "ON", "GS"] },
+    portfolio3: { tickers: ["KEYS", "FLEX", "GS", "A", "TSCO"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -75,16 +111,25 @@ module.exports = [
     username: "reactiscool",
     email: "iscool@hotmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
+    formAnswers1:
+    {
+      environmentalRating: 3,
+      socialRating: 1,
+      governanceRating: 2,
+    },
+    formAnswers2: {
       environmentalRating: 4,
-      socialRating: 3,
+      socialRating: 4,
       governanceRating: 4,
     },
-    portfolios: {
-      porfolio1: ["TSCO", "AMT", "GS", "EBAY", "A"],
-      portfolio2: ["HOLX", "EBAY", "TSCO", "ON", "GS"],
-      portfolio3: ["ON", "FLEX", "GS", "A", "TSCO"],
+    formAnswers3: {
+      environmentalRating: 5,
+      socialRating: 5,
+      governanceRating: 5,
     },
+    portfolio1: { tickers: ["TSCO", "AMT", "GS", "EBAY", "A"] },
+    portfolio2: { tickers: ["HOLX", "EBAY", "TSCO", "ON", "GS"] },
+    portfolio3: { tickers: ["ON", "FLEX", "GS", "A", "TSCO"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -93,16 +138,25 @@ module.exports = [
     username: "supercoolcarl",
     email: "supercool@gmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
+    formAnswers1:
+    {
+      environmentalRating: 2,
+      socialRating: 3,
+      governanceRating: 2,
+    },
+    formAnswers2: {
+      environmentalRating: 4,
+      socialRating: 5,
+      governanceRating: 5,
+    },
+    formAnswers3: {
       environmentalRating: 3,
-      socialRating: 4,
-      governanceRating: 3,
+      socialRating: 1,
+      governanceRating: 1,
     },
-    portfolios: {
-      porfolio1: ["A", "ABT", "GS", "FR", "A"],
-      portfolio2: ["WM", "TSCO", "DAR", "ON", "GS"],
-      portfolio3: ["FB", "WCC", "XLNX", "AAPL", "SMTC"],
-    },
+    portfolio1: { tickers: ["A", "ABT", "GS", "FR", "A"] },
+    portfolio2: { tickers: ["WM", "TSCO", "DAR", "ON", "GS"] },
+    portfolio3: { tickers: ["FB", "WCC", "XLNX", "AAPL", "SMTC"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -111,16 +165,25 @@ module.exports = [
     username: "momo",
     email: "momo@gmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
+    formAnswers1:
+    {
+      environmentalRating: 1,
+      socialRating: 2,
+      governanceRating: 3,
+    },
+    formAnswers2: {
+      environmentalRating: 3,
+      socialRating: 2,
+      governanceRating: 1,
+    },
+    formAnswers3: {
       environmentalRating: 2,
-      socialRating: 4,
-      governanceRating: 5,
+      socialRating: 1,
+      governanceRating: 3,
     },
-    portfolios: {
-      porfolio1: ["CMG", "DHR", "ZTS", "KEYS", "A"],
-      portfolio2: ["WM", "AAPL", "DAR", "THRM", "GS"],
-      portfolio3: ["AMP", "THRM", "GS", "CDNS", "SMTC"],
-    },
+    portfolio1: { tickers: ["CMG", "DHR", "ZTS", "KEYS", "A"] },
+    portfolio2: { tickers: ["WM", "AAPL", "DAR", "THRM", "GS"] },
+    portfolio3: { tickers: ["AMP", "THRM", "GS", "CDNS", "SMTC"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -129,16 +192,25 @@ module.exports = [
     username: "hackerliam",
     email: "hacker@hotmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 5,
-      socialRating: 3,
+    formAnswers1:
+    {
+      environmentalRating: 4,
+      socialRating: 5,
+      governanceRating: 3,
+    },
+    formAnswers2: {
+      environmentalRating: 4,
+      socialRating: 1,
+      governanceRating: 2,
+    },
+    formAnswers3: {
+      environmentalRating: 2,
+      socialRating: 4,
       governanceRating: 4,
     },
-    portfolios: {
-      porfolio1: ["CMG", "SMTC", "TSCO", "AAPL", "A"],
-      portfolio2: ["WM", "AAPL", "THRM", "ON", "GS"],
-      portfolio3: ["WM", "DAR", "GS", "A", "SMTC"],
-    },
+    portfolio1: { tickers: ["CMG", "SMTC", "TSCO", "AAPL", "A"] },
+    portfolio2: { tickers: ["WM", "AAPL", "THRM", "ON", "GS"] },
+    portfolio3: { tickers: ["WM", "DAR", "GS", "A", "SMTC"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -147,16 +219,25 @@ module.exports = [
     username: "mairecodes",
     email: "mairecodes@hotmail.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 2,
-      socialRating: 1,
+    formAnswers1:
+    {
+      environmentalRating: 1,
+      socialRating: 3,
+      governanceRating: 3,
+    },
+    formAnswers2: {
+      environmentalRating: 3,
+      socialRating: 5,
+      governanceRating: 5,
+    },
+    formAnswers3: {
+      environmentalRating: 3,
+      socialRating: 4,
       governanceRating: 4,
     },
-    portfolios: {
-      porfolio1: ["DAR", "AMT", "GS", "EBAY", "A"],
-      portfolio2: ["HOLX", "DAR", "TSCO", "ON", "GS"],
-      portfolio3: ["ON", "FLEX", "THRM", "A", "TSCO"],
-    },
+    portfolio1: { tickers: ["DAR", "AMT", "GS", "EBAY", "A"] },
+    portfolio2: { tickers: ["HOLX", "DAR", "TSCO", "ON", "GS"] },
+    portfolio3: { tickers: ["ON", "FLEX", "THRM", "A", "TSCO"] },
     achievements: [],
     newUser: false,
     theme: "light",
@@ -165,16 +246,25 @@ module.exports = [
     username: "lovelydavid",
     email: "lovely@yahoo.com",
     avatarUrl: "./profile_pic.jpeg",
-    form_answers: {
-      environmentalRating: 0,
-      socialRating: 2,
+    formAnswers1:
+    {
+      environmentalRating: 5,
+      socialRating: 4,
+      governanceRating: 3,
+    },
+    formAnswers2: {
+      environmentalRating: 2,
+      socialRating: 1,
       governanceRating: 5,
     },
-    portfolios: {
-      porfolio1: ["TSCO", "AAPL", "GS", "THRM", "A"],
-      portfolio2: ["HOLX", "MSFT", "TSCO", "ON", "GS"],
-      portfolio3: ["ON", "FLEX", "SMTC", "A", "MSFT"],
+    formAnswers3: {
+      environmentalRating: 3,
+      socialRating: 5,
+      governanceRating: 4,
     },
+    portfolio1: { tickers: ["TSCO", "AAPL", "GS", "THRM", "A"] },
+    portfolio2: { tickers: ["HOLX", "MSFT", "TSCO", "ON", "GS"] },
+    portfolio3: { tickers: ["ON", "FLEX", "SMTC", "A", "MSFT"] },
     achievements: [],
     newUser: false,
     theme: "light",
