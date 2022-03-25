@@ -1,21 +1,21 @@
-const chai = require("chai");
-const chaiHttp = require("chai-http");
-const app = require("../app");
-const seedDB = require("../data/seed-test");
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const app = require('../app');
+const seedDB = require('../data/seed-test');
 
 chai.should();
 
 chai.use(chaiHttp);
 
-describe("Testing the Vested Back-End", () => {
+describe('Testing the Vested Back-End', () => {
   beforeEach(async () => {
     await seedDB();
   });
-  describe("/GET/Polygon", () => {
-    it("Fetches all polygon data", (done) => {
+  describe('/GET/Polygon', () => {
+    it('Fetches all polygon data', (done) => {
       chai
         .request(app)
-        .get("/api/polygon")
+        .get('/api/polygon')
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
@@ -24,11 +24,11 @@ describe("Testing the Vested Back-End", () => {
         });
     });
   });
-  describe("/GET/Users", () => {
-    it("Fetches all User data", (done) => {
+  describe('/GET/Users', () => {
+    it('Fetches all User data', (done) => {
       chai
         .request(app)
-        .get("/api/users")
+        .get('/api/users')
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
@@ -37,11 +37,11 @@ describe("Testing the Vested Back-End", () => {
         });
     });
   });
-  describe("/GET/ESG", () => {
-    it("Fetches all ESG data", (done) => {
+  describe('/GET/ESG', () => {
+    it('Fetches all ESG data', (done) => {
       chai
         .request(app)
-        .get("/api/ESG")
+        .get('/api/ESG')
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
@@ -50,19 +50,16 @@ describe("Testing the Vested Back-End", () => {
         });
     });
   });
-  describe("/GET/Users/:username", () => {
-    const username = "jessjelly";
-    it("Fetches a specific user account", (done) => {
-      chai.request(app)
-        .get(`/api/users/${username}`)
+  describe('/api/:username/:portfolio', () => {
+    it("Fetches the users's portfolios", (done) => {
+      chai
+        .request(app)
+        .get('/api/jessjelly/portfolio1')
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
-          result.username.should.equal("jessjelly");
-          result.formAnswers1.environmentalRating.should.equal(4);
-          result.formAnswers2.environmentalRating.should.equal(1);
-          result.formAnswers3.environmentalRating.should.equal(2);
-          result.newUser.should.equal(false);
+          // equal compares objects, eql compares values
+          result.tickers.should.eql(['COST', 'ABT', 'ANET', 'FR', 'A']);
           done();
         });
     });

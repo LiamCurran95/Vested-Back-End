@@ -1,14 +1,13 @@
 module.exports = [
   {
-    username: "jessjelly",
-    email: "jessjelly@yahoo.com",
-    avatarUrl: "./profile_pic.jpeg",
-    formAnswers1:
-      {
-        environmentalRating: 4,
-        socialRating: 3,
-        governanceRating: 2,
-      },
+    username: 'jessjelly',
+    email: 'jessjelly@yahoo.com',
+    avatarUrl: './profile_pic.jpeg',
+    formAnswers1: {
+      environmentalRating: 4,
+      socialRating: 3,
+      governanceRating: 2,
+    },
     formAnswers2: {
       environmentalRating: 1,
       socialRating: 4,
@@ -19,19 +18,18 @@ module.exports = [
       socialRating: 4,
       governanceRating: 4,
     },
-    portfolio1: { tickers: ["COST", "ABT", "ANET", "FR", "A"] },
-    portfolio2: { tickers: ["WM", "DHR", "DAR", "KEYS", "GS"] },
-    portfolio3: { tickers: ["FB", "WCC", "XLNX", "CDNS", "SMTC"] },
+    portfolio1: { tickers: ['COST', 'ABT', 'ANET', 'FR', 'A'] },
+    portfolio2: { tickers: ['WM', 'DHR', 'DAR', 'KEYS', 'GS'] },
+    portfolio3: { tickers: ['FB', 'WCC', 'XLNX', 'CDNS', 'SMTC'] },
     achievements: [],
     newUser: false,
-    theme: "light",
+    theme: 'light',
   },
   {
-    username: "butter_bridge",
-    email: "butter@gmail.com",
-    avatarUrl: "./profile_pic.jpeg",
-    formAnswers1:
-    {
+    username: 'butter_bridge',
+    email: 'butter@gmail.com',
+    avatarUrl: './profile_pic.jpeg',
+    formAnswers1: {
       environmentalRating: 1,
       socialRating: 4,
       governanceRating: 2,
@@ -46,11 +44,11 @@ module.exports = [
       socialRating: 5,
       governanceRating: 2,
     },
-    portfolio1: { tickers: ["WM", "DHR", "ANET", "KEYS", "A"] },
-    portfolio2: { tickers: ["WM", "AAPL", "DAR", "ON", "GS"] },
-    portfolio3: { tickers: ["KEYS", "WCC", "GS", "CDNS", "SMTC"] },
+    portfolio1: { tickers: ['WM', 'DHR', 'ANET', 'KEYS', 'A'] },
+    portfolio2: { tickers: ['WM', 'AAPL', 'DAR', 'ON', 'GS'] },
+    portfolio3: { tickers: ['KEYS', 'WCC', 'GS', 'CDNS', 'SMTC'] },
     achievements: [],
     newUser: false,
-    theme: "light",
+    theme: 'light',
   },
 ];
