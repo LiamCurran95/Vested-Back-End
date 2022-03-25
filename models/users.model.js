@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const { testUri } = require("../secretInfo");
 
-const uri = testUri;
+const uri = process.env.MONGODB_URI || testUri;
 const User = require("../schema/usersSchema");
 
 exports.fetchUsers = async () => {
@@ -35,6 +35,7 @@ exports.fetchUserByUsername = async (username) => {
   }
 };
 
+
 exports.addUserFormAnswers = async (username, formAnswers, formResponses) => {
   try {
     await mongoose.connect(uri, {
@@ -46,6 +47,24 @@ exports.addUserFormAnswers = async (username, formAnswers, formResponses) => {
     const data = await User.findOneAndUpdate(filter, update, { returnOriginal: false });
     if (data === null) { return await Promise.reject({ status: 404, msg: "Invalid" }); }
     return data;
+  } finally {
+    await mongoose.connection.close();
+  }
+};
+
+ exports.fetchPortfolioByUsername = async (username, portfolio) => {
+ try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    const data = await User.findOne({
+      username: username,
+      portfolio,
+    });
+    return data[portfolio];
+  } catch (error) {
+    console.log(error);
   } finally {
     await mongoose.connection.close();
   }
