@@ -37,7 +37,7 @@ app.patch("/api/:username/:portfolio", emptyPortfolio);
 
 app.patch("/api/users/:username/:formAnswers", postUserAnswers);
 
-app.listen(process.env.port || 9090, () => {
+app.listen(process.env.PORT || 9090, () => {
   console.log("Server online..");
 });
 
