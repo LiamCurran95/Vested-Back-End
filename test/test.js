@@ -64,6 +64,21 @@ describe('Testing the Vested Back-End', () => {
         });
     });
   });
+
+  describe('/api/:username/:portfolio', () => {
+    it('sets the specfied portfolio array to empty', (done) => {
+      chai
+        .request(app)
+        .patch('/api/jessjelly/portfolio1')
+        .end((err, res) => {
+          const { result } = res.body;
+          res.should.have.status(200);
+          result.tickers.should.eql([]);
+        done();
+        });
+    });
+  });
+
   describe("PATCH /API/Users/:username/:formAnswers", () => {
     it("Status 201 - Overwrites a users form responses on their user profile", (done) => {
       const username = "jessjelly";
