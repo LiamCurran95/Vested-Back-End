@@ -25,13 +25,17 @@ exports.getUserByUsername = (req, res, next) => {
     });
 };
 
-
 exports.postUserAnswers = (req, res, next) => {
   const { formResponses } = req.body;
   const { username, formAnswers } = req.params;
   addUserFormAnswers(username, formAnswers, formResponses)
     .then((result) => {
       res.status(201).send({ result });
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
 
 exports.getPortfolioByUsername = (req, res, next) => {
   const { username, portfolio } = req.params;
