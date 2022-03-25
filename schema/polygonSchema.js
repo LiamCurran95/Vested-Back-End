@@ -13,7 +13,7 @@ const polygonSchema = new Schema(
     },
     date: {
       type: String,
-      // required: [true, "String is required"],
+      required: [true, "String is required"],
     },
   },
   {

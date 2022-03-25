@@ -10,7 +10,6 @@ exports.fetchPolygon = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-
     const data = await Polygon.find({});
     return data;
   } catch (error) {

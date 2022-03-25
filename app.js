@@ -7,19 +7,20 @@ app.use(express.json());
 const { getPolygon } = require("./controllers/polygon.controller");
 
 //ESG
-const {getESG} = require ("./controllers/esg.controller")
+const { getESG } = require("./controllers/esg.controller");
 
 //USERS
-const { getUsers } = require("./controllers/users.controller");
+const { getUsers, getUserByUsername } = require("./controllers/users.controller");
 
 //POLYGON
-app.use("/api/polygon", getPolygon);
+app.get("/api/polygon", getPolygon);
 
 //ESG
-app.use("/api/users", getUsers);
+app.get("/api/ESG", getESG);
 
 //USERS
-app.use("/api/ESG", getESG)
+app.get("/api/users", getUsers);
+app.get("/api/users/:username", getUserByUsername);
 
 app.listen(process.env.port || 9090, () => {
   console.log("Server online..");

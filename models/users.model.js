@@ -18,3 +18,18 @@ exports.fetchUsers = async () => {
     await mongoose.connection.close();
   }
 };
+
+exports.fetchUserByUsername = async (username) => {
+  try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    const data = await User.findOne({ username });
+    return data;
+  } catch (error) {
+    console.log(error);
+  } finally {
+    await mongoose.connection.close();
+  }
+};
