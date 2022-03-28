@@ -95,10 +95,25 @@ describe("Testing the Vested Back-End", () => {
 		});
 	});
 	describe("PATCH /api/:username/:portfolio", () => {
-		it("Status 200 - Method updates specific portfolio array to empty", (done) => {
+		it("Status 200 - Method updates specific portfolio tickers.", (done) => {
+			const tickers = ["GS", "CDNS", "DHR", "KEYS", "ABT"];
 			chai
 				.request(app)
 				.patch("/api/jessjelly/portfolio1")
+				.send(tickers)
+				.end((err, res) => {
+					const { result } = res.body;
+					res.should.have.status(200);
+					result.tickers.should.eql(["GS", "CDNS", "DHR", "KEYS", "ABT"]);
+					done();
+				});
+		});
+		it("Status 200 - Method updates specific portfolio array to empty", (done) => {
+			const tickers = [];
+			chai
+				.request(app)
+				.patch("/api/jessjelly/portfolio1")
+				.send(tickers)
 				.end((err, res) => {
 					const { result } = res.body;
 					res.should.have.status(200);
@@ -148,50 +163,49 @@ describe("Testing the Vested Back-End", () => {
 				});
 		});
 	});
-  describe("/POST/Users", () => {
-    it("Creates a new user", (done) => {
-      const username = "TEST";
-      const email = "test@gmail.com";
-      const avatarUrl = "./profile_pic.jpeg";
-      const newUser = true;
-      const theme = "light";
-      const achievements = [];
-      const form_answers = {
-        environmentalRating: 0,
-        socialRating: 5,
-        governanceRating: 5,
-      };
-      const emptyForm = {
-        environmentalRating: 0,
-        socialRating: 0,
-        governanceRating: 0,
-      };
-      const emptyPortfolio = { tickers: "" };
+	describe("/POST/Users", () => {
+		it("Creates a new user", (done) => {
+			const username = "TEST";
+			const email = "test@gmail.com";
+			const avatarUrl = "./profile_pic.jpeg";
+			const newUser = true;
+			const theme = "light";
+			const achievements = [];
+			const form_answers = {
+				environmentalRating: 0,
+				socialRating: 5,
+				governanceRating: 5,
+			};
+			const emptyForm = {
+				environmentalRating: 0,
+				socialRating: 0,
+				governanceRating: 0,
+			};
+			const emptyPortfolio = { tickers: "" };
 
-      chai
-        .request(app)
-        .post("/api/users")
-        .send({
-          username,
-          email,
-          avatarUrl,
-          newUser,
-          theme,
-          achievements,
-          form_answers,
-          emptyForm,
-          emptyPortfolio,
-        })
-        .end((err, res) => {
-          const { result } = res.body;
-          res.should.have.status(200);
-          res.body.should.have.property("user").eql("New User Created");
-          // res.body.user.should.be.a("string");
-          // res.body.should.be.a("object");
-          // res.body.user.should.be("New User Created");
-          done();
-        });
-    });
-  });
-
+			chai
+				.request(app)
+				.post("/api/users")
+				.send({
+					username,
+					email,
+					avatarUrl,
+					newUser,
+					theme,
+					achievements,
+					form_answers,
+					emptyForm,
+					emptyPortfolio,
+				})
+				.end((err, res) => {
+					const { result } = res.body;
+					res.should.have.status(200);
+					res.body.should.have.property("user").eql("New User Created");
+					// res.body.user.should.be.a("string");
+					// res.body.should.be.a("object");
+					// res.body.user.should.be("New User Created");
+					done();
+				});
+		});
+	});
 });
