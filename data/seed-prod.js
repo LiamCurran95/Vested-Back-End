@@ -6,9 +6,8 @@ const userData = require("./seed_prod_data/userdata");
 const Esg = require("../schema/esgSchema");
 const Polygon = require("../schema/polygonSchema");
 const Users = require("../schema/usersSchema");
-const { prodUri } = require("../secretInfo");
 
-const uri = prodUri;
+const uri = process.env.MONGODB_URI;
 
 const seedDB = async () => {
   try {

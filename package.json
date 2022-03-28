@@ -4,6 +4,8 @@
 		"cors": "^2.8.5",
 		"express": "^4.17.3",
 		"express-router": "^0.0.1",
+		"heroku": "^7.60.0",
+		"heroku-cli": "^7.0.9",
 		"mongodb": "^4.4.1",
 		"mongoose": "^6.2.7",
 		"nodemon": "^2.0.15"
