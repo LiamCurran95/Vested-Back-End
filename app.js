@@ -1,5 +1,7 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -19,8 +21,7 @@ const {
 	emptyPortfolio,
 	getPortfolioByUsername,
 	postUserAnswers,
-  postUser,
-
+	postUser,
 } = require("./controllers/users.controller");
 
 //POLYGON
@@ -38,8 +39,7 @@ app.patch("/api/users/:username/:formAnswers", postUserAnswers);
 app.post("/api/users", postUser);
 
 app.listen(process.env.PORT || 9090, () => {
-  console.log("Server online..");
-
+	console.log("Server online..");
 });
 
 app.use(errors.mongooseErrors);
