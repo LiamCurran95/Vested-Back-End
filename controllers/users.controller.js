@@ -54,7 +54,7 @@ exports.getPortfolioByUsername = (req, res, next) => {
 
 exports.updatePortfolio = (req, res, next) => {
 	const { username, portfolio } = req.params;
-	const tickers = req.body;
+	const { tickers } = req.body;
 	updatePortfolioData(username, portfolio, tickers)
 		.then((result) => {
 			res.status(200).send({ result });

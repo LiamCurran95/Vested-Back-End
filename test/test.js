@@ -96,7 +96,7 @@ describe("Testing the Vested Back-End", () => {
 	});
 	describe("PATCH /api/:username/:portfolio", () => {
 		it("Status 200 - Method updates specific portfolio tickers.", (done) => {
-			const tickers = ["GS", "CDNS", "DHR", "KEYS", "ABT"];
+			const tickers = { tickers: ["GS", "CDNS", "DHR", "KEYS", "ABT"] };
 			chai
 				.request(app)
 				.patch("/api/jessjelly/portfolio1")
