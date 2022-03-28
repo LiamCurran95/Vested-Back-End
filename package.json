@@ -1,6 +1,7 @@
 {
 	"dependencies": {
 		"@types/mocha": "^9.1.0",
+		"cors": "^2.8.5",
 		"express": "^4.17.3",
 		"express-router": "^0.0.1",
 		"mongodb": "^4.4.1",
