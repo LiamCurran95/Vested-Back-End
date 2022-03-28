@@ -1,12 +1,11 @@
 const {
   fetchUsers,
   fetchUserByUsername,
-
   removePortfolioData,
-
   fetchPortfolioByUsername,
   addUserFormAnswers,
-} = require('../models/users.model');
+  createUser,
+} = require("../models/users.model");
 
 exports.getUsers = (req, res, next) => {
   fetchUsers()
@@ -57,6 +56,35 @@ exports.emptyPortfolio = (req, res, next) => {
   removePortfolioData(username, portfolio)
     .then((result) => {
       res.status(200).send({ result });
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
+exports.postUser = (req, res, next) => {
+  const newUsername = req.body.username;
+  const newEmail = req.body.email;
+  const newAvatarUrl = req.body.avatarUrl;
+  const newUser = req.body.newUser;
+  const newTheme = req.body.theme;
+  const achievements = req.body.achievements;
+  const form_answers = req.body.form_answers;
+  const emptyFormAnswers = req.body.emptyForm;
+  const emptyPortfolio = req.body.emptyPortfolio;
+  createUser(
+    newUsername,
+    newEmail,
+    newAvatarUrl,
+    newUser,
+    newTheme,
+    achievements,
+    form_answers,
+    emptyFormAnswers,
+    emptyPortfolio
+  )
+    .then((user) => {
+      res.status(200).send({ user });
     })
     .catch((err) => {
       next(err);

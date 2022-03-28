@@ -92,3 +92,41 @@ exports.removePortfolioData = async (username, portfolio) => {
     await mongoose.connection.close();
   }
 };
+
+exports.createUser = async (
+  newUsername,
+  newEmail,
+  newAvatarUrl,
+  newUser,
+  newTheme,
+  achievements,
+  form_answers,
+  emptyFormAnswers,
+  emptyPortfolio
+) => {
+  try {
+    await mongoose.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    await User.create({
+      username: newUsername,
+      email: newEmail,
+      newUser: newUser,
+      avatarUrl: newAvatarUrl,
+      newTheme: newTheme,
+      formAnswers1: form_answers,
+      formAnswers2: emptyFormAnswers,
+      formAnswers3: emptyFormAnswers,
+      portfolio1: emptyPortfolio,
+      portfolio2: emptyPortfolio,
+      portfolio3: emptyPortfolio,
+    });
+    const result = "New User Created";
+    return result;
+  } catch (error) {
+    console.log(error);
+  } finally {
+    await mongoose.connection.close();
+  }
+};
