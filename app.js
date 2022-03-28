@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 
 //ERRORS
 const errors = require("./controllers/errors.controller");
@@ -14,12 +14,13 @@ const { getESG } = require("./controllers/esg.controller");
 
 //USERS
 const {
-  getUsers,
-  getUserByUsername,
-  emptyPortfolio,
-  postUserAnswers,
-  getPortfolioByUsername,
+	getUsers,
+	getUserByUsername,
+	emptyPortfolio,
+	getPortfolioByUsername,
+	postUserAnswers,
   postUser,
+
 } = require("./controllers/users.controller");
 
 //POLYGON
@@ -38,8 +39,10 @@ app.post("/api/users", postUser);
 
 app.listen(process.env.PORT || 9090, () => {
   console.log("Server online..");
+
 });
 
 app.use(errors.mongooseErrors);
+app.all("/api/*", errors.handler404);
 
 module.exports = app;

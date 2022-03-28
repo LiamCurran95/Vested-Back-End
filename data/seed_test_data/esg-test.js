@@ -336,14 +336,3 @@ module.exports = [
     total: 1216
   }
 ]
-
-// let filters = ["COST", "ABT","ANET","FR","A","WM","DHR", "DAR", "KEYS", "GS", "FB", "WCC", "XLNX", "CDNS", "SMTC"];
-
-// let filtered = [];
-// for (let i = 0; i < esgTest.length; i++) {
-//   if ( esgTest[i].ticker === "COST" | esgTest[i].ticker === "ABT" | esgTest[i].ticker === "ANET" | esgTest[i].ticker === "FR" | esgTest[i].ticker === "A" | esgTest[i].ticker === "WM" | esgTest[i].ticker === "DHR" | esgTest[i].ticker === "DAR" | esgTest[i].ticker === "KEYS" | esgTest[i].ticker === "GS" | esgTest[i].ticker === "FB" | esgTest[i].ticker === "WCC" | esgTest[i].ticker === "XLNX" | esgTest[i].ticker === "CDNS" | esgTest[i].ticker === "SMTC" ){
-//    filtered.push(esgTest[i]) 
-//   }
-// }
-
-// console.log(filtered)
