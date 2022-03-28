@@ -8,15 +8,15 @@ chai.should();
 
 chai.use(chaiHttp);
 
-describe('Testing the Vested Back-End', () => {
+describe("Testing the Vested Back-End", () => {
   beforeEach(async () => {
     await seedDB();
   });
-  describe('/GET/Polygon', () => {
-    it('Fetches all polygon data', (done) => {
+  describe("/GET/Polygon", () => {
+    it("Fetches all polygon data", (done) => {
       chai
         .request(app)
-        .get('/api/polygon')
+        .get("/api/polygon")
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
@@ -25,11 +25,11 @@ describe('Testing the Vested Back-End', () => {
         });
     });
   });
-  describe('/GET/Users', () => {
-    it('Fetches all User data', (done) => {
+  describe("/GET/Users", () => {
+    it("Fetches all User data", (done) => {
       chai
         .request(app)
-        .get('/api/users')
+        .get("/api/users")
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
@@ -38,11 +38,11 @@ describe('Testing the Vested Back-End', () => {
         });
     });
   });
-  describe('/GET/ESG', () => {
-    it('Fetches all ESG data', (done) => {
+  describe("/GET/ESG", () => {
+    it("Fetches all ESG data", (done) => {
       chai
         .request(app)
-        .get('/api/ESG')
+        .get("/api/ESG")
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
@@ -51,34 +51,32 @@ describe('Testing the Vested Back-End', () => {
         });
     });
   });
-  describe('/api/:username/:portfolio', () => {
+  describe("GET /api/:username/:portfolio", () => {
     it("Fetches the users's portfolios", (done) => {
       chai
         .request(app)
-        .get('/api/jessjelly/portfolio1')
+        .get("/api/jessjelly/portfolio1")
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
-          result.tickers.should.eql(['COST', 'ABT', 'ANET', 'FR', 'A']);
+          result.tickers.should.eql(["COST", "ABT", "ANET", "FR", "A"]);
           done();
         });
     });
   });
-
-  describe('/api/:username/:portfolio', () => {
-    it('sets the specfied portfolio array to empty', (done) => {
+  describe("PATCH /api/:username/:portfolio", () => {
+    it("sets the specfied portfolio array to empty", (done) => {
       chai
         .request(app)
-        .patch('/api/jessjelly/portfolio1')
+        .patch("/api/jessjelly/portfolio1")
         .end((err, res) => {
           const { result } = res.body;
           res.should.have.status(200);
           result.tickers.should.eql([]);
-        done();
+          done();
         });
     });
   });
-
   describe("PATCH /API/Users/:username/:formAnswers", () => {
     it("Status 201 - Overwrites a users form responses on their user profile", (done) => {
       const username = "jessjelly";
@@ -88,7 +86,8 @@ describe('Testing the Vested Back-End', () => {
         socialRating: 1,
         governanceRating: 3,
       };
-      chai.request(app)
+      chai
+        .request(app)
         .patch(`/api/users/${username}/${formAnswers}`)
         .send({ formResponses })
         .end((err, res) => {
@@ -108,12 +107,58 @@ describe('Testing the Vested Back-End', () => {
         socialRating: 1,
         governanceRating: 3,
       };
-      chai.request(app)
+      chai
+        .request(app)
         .patch(`/api/users/${username}/${formAnswers}`)
         .send({ formResponses })
         .end((err, res) => {
           res.should.have.status(404);
           res.body.should.eql({ msg: "Bad request." });
+          done();
+        });
+    });
+  });
+  describe.only("/POST/Users", () => {
+    it("Creates a new user", (done) => {
+      const username = "TEST";
+      const email = "test@gmail.com";
+      const avatarUrl = "./profile_pic.jpeg";
+      const newUser = true;
+      const theme = "light";
+      const achievements = [];
+      const form_answers = {
+        environmentalRating: 0,
+        socialRating: 5,
+        governanceRating: 5,
+      };
+      const emptyForm = {
+        environmentalRating: 0,
+        socialRating: 0,
+        governanceRating: 0,
+      };
+      const emptyPortfolio = { tickers: "" };
+
+      chai
+        .request(app)
+        .post("/api/users")
+        .send({
+          username,
+          email,
+          avatarUrl,
+          newUser,
+          theme,
+          achievements,
+          form_answers,
+          emptyForm,
+          emptyPortfolio,
+        })
+        .end((err, res) => {
+          const { result } = res.body;
+          res.should.have.status(200);
+          res.body.should.have.property("user").eql("New User Created");
+          // res.body.user.should.be.a("string");
+          // res.body.should.be.a("object");
+          // res.body.user.should.be("New User Created");
           done();
         });
     });
