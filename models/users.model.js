@@ -34,7 +34,6 @@ exports.fetchUserByUsername = async (username) => {
 };
 
 exports.addUserFormAnswers = async (username, formAnswers, formResponses) => {
-
 	try {
 		await mongoose.connect(uri, {
 			useNewUrlParser: true,
@@ -52,7 +51,6 @@ exports.addUserFormAnswers = async (username, formAnswers, formResponses) => {
 	} finally {
 		await mongoose.connection.close();
 	}
-
 };
 
 exports.fetchPortfolioByUsername = async (username, portfolio) => {
@@ -73,16 +71,14 @@ exports.fetchPortfolioByUsername = async (username, portfolio) => {
 	}
 };
 
-exports.removePortfolioData = async (username, portfolio) => {
+exports.updatePortfolioData = async (username, portfolio, tickers) => {
 	try {
 		await mongoose.connect(uri, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		});
-
 		const filter = { username };
-		const update = { [portfolio]: { tickers: [] } };
-
+		const update = { [portfolio]: { tickers: tickers } };
 		const data = await User.findOneAndUpdate(filter, update, {
 			returnOriginal: false,
 		});
@@ -95,39 +91,39 @@ exports.removePortfolioData = async (username, portfolio) => {
 };
 
 exports.createUser = async (
-  newUsername,
-  newEmail,
-  newAvatarUrl,
-  newUser,
-  newTheme,
-  achievements,
-  form_answers,
-  emptyFormAnswers,
-  emptyPortfolio
+	newUsername,
+	newEmail,
+	newAvatarUrl,
+	newUser,
+	newTheme,
+	achievements,
+	form_answers,
+	emptyFormAnswers,
+	emptyPortfolio
 ) => {
-  try {
-    await mongoose.connect(uri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    await User.create({
-      username: newUsername,
-      email: newEmail,
-      newUser: newUser,
-      avatarUrl: newAvatarUrl,
-      newTheme: newTheme,
-      formAnswers1: form_answers,
-      formAnswers2: emptyFormAnswers,
-      formAnswers3: emptyFormAnswers,
-      portfolio1: emptyPortfolio,
-      portfolio2: emptyPortfolio,
-      portfolio3: emptyPortfolio,
-    });
-    const result = "New User Created";
-    return result;
-  } catch (error) {
-    console.log(error);
-  } finally {
-    await mongoose.connection.close();
-  }
+	try {
+		await mongoose.connect(uri, {
+			useNewUrlParser: true,
+			useUnifiedTopology: true,
+		});
+		await User.create({
+			username: newUsername,
+			email: newEmail,
+			newUser: newUser,
+			avatarUrl: newAvatarUrl,
+			newTheme: newTheme,
+			formAnswers1: form_answers,
+			formAnswers2: emptyFormAnswers,
+			formAnswers3: emptyFormAnswers,
+			portfolio1: emptyPortfolio,
+			portfolio2: emptyPortfolio,
+			portfolio3: emptyPortfolio,
+		});
+		const result = "New User Created";
+		return result;
+	} catch (error) {
+		console.log(error);
+	} finally {
+		await mongoose.connection.close();
+	}
 };

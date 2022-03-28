@@ -1,10 +1,10 @@
 const {
 	fetchUsers,
 	fetchUserByUsername,
-	removePortfolioData,
+	updatePortfolioData,
 	fetchPortfolioByUsername,
 	addUserFormAnswers,
-  createUser,
+	createUser,
 } = require("../models/users.model");
 
 exports.getUsers = (req, res, next) => {
@@ -52,9 +52,10 @@ exports.getPortfolioByUsername = (req, res, next) => {
 		});
 };
 
-exports.emptyPortfolio = (req, res, next) => {
+exports.updatePortfolio = (req, res, next) => {
 	const { username, portfolio } = req.params;
-	removePortfolioData(username, portfolio)
+	const { tickers } = req.body;
+	updatePortfolioData(username, portfolio, tickers)
 		.then((result) => {
 			res.status(200).send({ result });
 		})
@@ -64,30 +65,30 @@ exports.emptyPortfolio = (req, res, next) => {
 };
 
 exports.postUser = (req, res, next) => {
-  const newUsername = req.body.username;
-  const newEmail = req.body.email;
-  const newAvatarUrl = req.body.avatarUrl;
-  const newUser = req.body.newUser;
-  const newTheme = req.body.theme;
-  const achievements = req.body.achievements;
-  const form_answers = req.body.form_answers;
-  const emptyFormAnswers = req.body.emptyForm;
-  const emptyPortfolio = req.body.emptyPortfolio;
-  createUser(
-    newUsername,
-    newEmail,
-    newAvatarUrl,
-    newUser,
-    newTheme,
-    achievements,
-    form_answers,
-    emptyFormAnswers,
-    emptyPortfolio
-  )
-    .then((user) => {
-      res.status(200).send({ user });
-    })
-    .catch((err) => {
-      next(err);
-    });
+	const newUsername = req.body.username;
+	const newEmail = req.body.email;
+	const newAvatarUrl = req.body.avatarUrl;
+	const newUser = req.body.newUser;
+	const newTheme = req.body.theme;
+	const achievements = req.body.achievements;
+	const form_answers = req.body.form_answers;
+	const emptyFormAnswers = req.body.emptyForm;
+	const emptyPortfolio = req.body.emptyPortfolio;
+	createUser(
+		newUsername,
+		newEmail,
+		newAvatarUrl,
+		newUser,
+		newTheme,
+		achievements,
+		form_answers,
+		emptyFormAnswers,
+		emptyPortfolio
+	)
+		.then((user) => {
+			res.status(200).send({ user });
+		})
+		.catch((err) => {
+			next(err);
+		});
 };

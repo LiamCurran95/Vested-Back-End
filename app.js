@@ -18,10 +18,10 @@ const { getESG } = require("./controllers/esg.controller");
 const {
 	getUsers,
 	getUserByUsername,
-	emptyPortfolio,
 	getPortfolioByUsername,
 	postUserAnswers,
 	postUser,
+	updatePortfolio,
 } = require("./controllers/users.controller");
 
 //POLYGON
@@ -34,7 +34,7 @@ app.get("/api/ESG", getESG);
 app.get("/api/users", getUsers);
 app.get("/api/users/:username", getUserByUsername);
 app.get("/api/:username/:portfolio", getPortfolioByUsername);
-app.patch("/api/:username/:portfolio", emptyPortfolio);
+app.patch("/api/:username/:portfolio", updatePortfolio);
 app.patch("/api/users/:username/:formAnswers", postUserAnswers);
 app.post("/api/users", postUser);
 
