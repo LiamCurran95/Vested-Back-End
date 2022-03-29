@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
+const { testUri } = require("../secretInfo");
 
-const uri = process.env.MONGODB_URI;
+const uri = process.env.MONGODB_URI || testUri;
 const Esg = require("../schema/esgSchema");
 
 exports.fetchESG = async () => {

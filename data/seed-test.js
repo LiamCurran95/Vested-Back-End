@@ -6,8 +6,9 @@ const seedDB = async () => {
   const Esg = require("../schema/esgSchema");
   const Polygon = require("../schema/polygonSchema");
   const Users = require("../schema/usersSchema");
+  const { testUri } = require("../secretInfo");
 
-  const uri = process.env.MONGODB_URI;
+  const uri = process.env.MONGODB_URI || testUri;
   const mongoose = require("mongoose");
 
   try {

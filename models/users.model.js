@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 
-const uri = process.env.MONGODB_URI;
+const { testUri } = require("../secretInfo");
+
+const uri = process.env.MONGODB_URI || testUri;
 const User = require("../schema/usersSchema");
 
 exports.fetchUsers = async () => {
@@ -98,7 +100,6 @@ exports.createUser = async (
   newUser,
   newTheme,
   achievements,
-  form_answers,
   emptyFormAnswers,
   emptyPortfolio
 ) => {
@@ -113,7 +114,7 @@ exports.createUser = async (
       newUser: newUser,
       avatarUrl: newAvatarUrl,
       newTheme: newTheme,
-      formAnswers1: form_answers,
+      formAnswers1: emptyFormAnswers,
       formAnswers2: emptyFormAnswers,
       formAnswers3: emptyFormAnswers,
       portfolio1: emptyPortfolio,
