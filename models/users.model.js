@@ -70,25 +70,16 @@ exports.fetchPortfolioByUsername = async (username, portfolio) => {
   }
 };
 
-<<<<<<< HEAD
 exports.updatePortfolioData = async (username, portfolio, tickers) => {
-=======
-exports.removePortfolioData = async (username, portfolio) => {
->>>>>>> afaa9811d944d6c8724f81f8d034b79c3fb5542a
   try {
     await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-<<<<<<< HEAD
+
     const filter = { username };
     const update = { [portfolio]: { tickers: tickers } };
-=======
 
-    const filter = { username };
-    const update = { [portfolio]: { tickers: [] } };
-
->>>>>>> afaa9811d944d6c8724f81f8d034b79c3fb5542a
     const data = await User.findOneAndUpdate(filter, update, {
       returnOriginal: false,
     });
