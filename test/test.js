@@ -12,7 +12,7 @@ describe("Testing the Vested Back-End", () => {
 	beforeEach(async () => {
 		await seedDB();
 	});
-	describe("GET /api/Polygon", () => {
+	describe.only("GET /api/Polygon", () => {
 		it("Status 200 - Return contains all polygon data", (done) => {
 			chai
 				.request(app)
@@ -95,7 +95,7 @@ describe("Testing the Vested Back-End", () => {
 		});
 	});
 	describe("PATCH /api/:username/:portfolio", () => {
-		it.only("Status 200 - Method updates specific portfolio tickers.", (done) => {
+		it("Status 200 - Method updates specific portfolio tickers.", (done) => {
 			const tickers = { tickers: ["GS", "CDNS", "DHR", "KEYS", "ABT"] };
 			chai
 				.request(app)
